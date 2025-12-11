@@ -1,35 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Understanding Float and Clear in CSS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <h1>Understanding Float and Clear in CSS</h1>
-
-    <h2>Example 1: Without Clear</h2>
-    <div class="example-container">
-        <div class="box red">Box 1</div>
-        <div class="box blue">Box 2</div>
-        <div class="box green">Box 3</div>
-        <div class="paragraph-without-clear">
-            This paragraph appears beside the floated boxes because we have NOT used clear.
+<html>
+    <head>
+        <title>
+            E commerce website
+        </title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <H1> My E-commerce store</H1>
+        <div class="product-card">
+            <img src="https://image.hm.com/assets/hm/81/bc/81bc7c888083e9760bbf302b6a34ce007cbb6998.jpg?imwidth=300 ">
+            <h2>Stylish T-shirt</h2>
+            <p class="description">A comfortable cotton t-shirt perfect for casual wear.</p>
+            <p class="price">price:&#8377;499</p>
+            <button class="add-cart">Add-To-Cart</button>
         </div>
-    </div>
-
-    <hr>
-
-    <h2>Example 2: With Clear</h2>
-    <div class="example-container">
-        <div class="box red">Box 1</div>
-        <div class="box blue">Box 2</div>
-        <div class="box green">Box 3</div>
-        <div class="paragraph-with-clear clear-both">
-            This paragraph comes BELOW the floated boxes because we used clear: both.
-        </div>
-    </div>
-
-</body>
+    </body>
 </html>
