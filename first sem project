@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Best Selling Items - Replica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Best selling items</h1>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHXuHmJvfNmEo4oHvVkO_-qx1tCqkMsHZzAdJhFi2mtiCTwFk_9jMP4wdTc8x0o17odJa9j8fY7s0h07outCxA35pk0iGfWnWjQG9IF8EQ1XUoZEdx7StK" alt="eyeshadow palette">
+      <h3>eyeshadow palette with 12 shades</h3>
+      <p>Highly pigmented eyeshadows in a variety of finishes for versatile looks.</p>
+      <div class="price">Rs999</div>
+      <a href="#" class="btn">buy now</a>
+    </div>
+
+
+    <!-- <div class="product-grid"> -->
+      <div class="product-card">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQdTuB96X48_ECaWs4abAuCKXJF8X4ypVZeIIxUvNUo-8AJU6WBUolpf1-fZn4DsA8WHCHps6ryRN3bjHwG62sAhpz8rKrMSSK1vABvOenXyjL7uAMsoqPA" alt="lipstick">
+        <h3>Nykaa So Creme! Creamy Matte Lipstick</h3>
+        <p>Rich, creamy lipstick with a smooth, matte finish for long-lasting wear.</p>
+        <div class="price">Rs1499</div>
+        <a href="#" class="btn">Buy now</a>
+      </div>
+
+
+      
+        <div class="product-card">
+          <img src="https://images.meesho.com/images/products/603317286/budmi_512.avif?width=512" alt="concealer ">
+          <h3>Insight Cosmetics Pro Concealer Palette</h3>
+          <p>Professional-grade concealer palette with 12 shades for full coverage and natural finish.</p>
+          <div class="price">Rs1999</div>
+          <a href="#" class="btn">buy now</a>
+        </div>
+      
+
+      
+        <div class="product-card">
+        <img src="https://www.boddess.com/pub/media/catalog/product/cache/3d422ca0b34e4efa077cad1610c1f8b4/6/8/689304140843_1.jpg" alt="maskara">
+        <h3>L'Oreal Paris Voluminous Lash Paradise Mascara</h3>
+        <p>Volumizing mascara that adds intense volume and length for dramatic lashes.</p>
+          <div class="price">Rs3000</div>
+          <a href="#" class="btn">buy now</a>
+        </div>
+     </div>
+
+
+</body>
+
+</html>}
+}
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: whitesmoke;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  color: #333; 
+}
+
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-card{
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.1);
+}
+
+.product-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3{
+  margin: 15px 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+  
+.product-card p{
+  font-size: 14px;
+  color: #666;
+}
+
+.price{
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-hover{
+  background: #005600;
+}
+@media(max-width:600px){
+  .product-image{
+    height:150px
+  }
+}
